@@ -18,9 +18,8 @@ Maximally compression/lower complexity --> minimize  *I(X;X')*
 
 Preserves information on the output/better generalization --> the constraints on *I(X',Y)*
 
-Hence it becomes a Lagrnginan problem;
-*L[p(x'|x)] = I(X;X') - beta x I(X',Y)*
+Hence it becomes a Lagrnginan problem: *L[p(x'|x)] = I(X;X') - beta x I(X',Y)*
 
 <img width="1015" alt="ib" src="https://user-images.githubusercontent.com/23377680/35342163-a992354a-0127-11e8-99f6-f33ceed48b31.png">
 
-*D_IB = I(X;Y|X'), R = I(X;X')* Larger R indicates high complexity/lower layers, larger D_IB means high distortion/higher layers. Each points on the black curve stands for a unique beta (slope is the negative inverse of beta).
+*D_IB = I(X;Y|X'), R = I(X;X')* Larger R indicates high complexity / lower layers, larger D_IB means high distortion / higher layers. Each points on the black curve stands for a unique beta (slope is the negative inverse of beta).
