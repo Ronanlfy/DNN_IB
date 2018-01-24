@@ -12,4 +12,10 @@ Well explain Blahut-Arimoto algorithm and the information bottleneck.
 
 - 2018/01/24 **Deep Learning and the Information Bottleneck Principle** Naftali Tishby and Noga Zaslavsky1
 
-Connect DNN with IB, any DNN can be quantified by the mutual information bewteen hidden layers and input/output variables. 
+Connect DNN with IB, any DNN can be quantified by the mutual information bewteen hidden layers and input/output variables. What IB tries to do, is to find a maximally compressed mapping of the input variable that preserves as much as possible the inofrmation on the output variable. 
+
+Maximally compression/lower complexity --> minimize  *I(X;X')*
+
+Preserves information on the output/better generalization --> the constraints on *I(X',Y)*
+
+<img width="1015" alt="ib" src="https://user-images.githubusercontent.com/23377680/35342163-a992354a-0127-11e8-99f6-f33ceed48b31.png">
